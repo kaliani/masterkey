@@ -336,7 +336,7 @@ function fullInit() {
     $( "#fName option[value='" + fName + "']" ).attr("selected", "selected");
     /*form.append("<div id='spacesDiv'><input type='checkbox' name='ignoreSpaces' id='ignoreSpaces' "
         + (ignoreSpaces ? "checked='checked' " : "" ) + "/> Игнорировать незначащие пробелы</div>");*/
-    /*form.append("<div id='numWordsDiv'>Количество строк: <input type='text' name='numWords' id='numWords' checked='checked' value='"+totalWords+"'/></div>");*/
+    form.append("<div id='numWordsDiv'>Количество строк: <input type='text' name='numWords' id='numWords' checked='checked' value='"+totalWords+"'/></div>");
     form.append("<input type='submit' value='Начать!' onclick='' id='start'/>");
     form.submit(init);
     $( "#start" ).focus();
